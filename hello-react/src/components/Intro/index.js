@@ -11,8 +11,8 @@ export function Intro() {
                     <img id="imgMenu" src={logoMenu} alt="Menu Logo" ></img>
                 </div>
                 <div className={style.divIntro}>
-                    <h1>Say hello to ReactJs</h1>
-                    <p>You will learn how to use<br></br>the most popular frontend library,<br></br>and become a super Ninja developer.</p>
+                    <h1 className="titulo">Say hello to ReactJs</h1>
+                    <p className="paragrafo">You will learn how to use<br></br>the most popular frontend library,<br></br>and become a super Ninja developer.</p>
                     <button className={style.containter}>Awesome!</button>
                 </div>
             </div>
