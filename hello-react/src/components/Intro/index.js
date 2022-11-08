@@ -1,6 +1,6 @@
-import style from "./style.module.css"
 import logoIronhack from "../images/ironhack-logo-xs.png";
-import logoMenu from "../images/menu-top-xs.png"
+import logoMenu from "../images/menu-top-xs.png";
+import style from "./style.module.css";
 
 export function Intro() {
     return (

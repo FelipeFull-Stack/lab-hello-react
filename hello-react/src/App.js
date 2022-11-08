@@ -4,7 +4,7 @@ import {Block} from "./components/Block";
 
 function App() {
   return <>
-  <Intro>Algo</Intro>
+  <Intro />
   <Block />
   </>
 }

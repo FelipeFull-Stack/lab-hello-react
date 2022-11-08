@@ -4,5 +4,21 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid red;
+}
+.divBlock {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.divBlock > img {
+    width: 60%;
+}
+
+.subtitulo {
+    color: rgb(32, 38, 54);
+}
+
+.paragrafo2 {
+    color: rgb(128, 128, 128);
 }
