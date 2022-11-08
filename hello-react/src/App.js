@@ -1,11 +1,12 @@
-import './App.css';
+import {Intro} from "./components/Intro";
+import {Block} from "./components/Block";
+
 
 function App() {
-  return (
-    <div className="App">
-
-    </div>
-  );
+  return <>
+  <Intro>Algo</Intro>
+  <Block />
+  </>
 }
 
 export default App;
